@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Light&family=Zilla+Slab+Highlight:wght@700&display=swap')
+
+*
+  margin: 0
+  padding: 0
+  text-dectoration: none
+
+body
+  background: #b18979
+
+button
+  padding: 0
+  border: 0
+  background-color: transparent
+  cursor: pointer
+
+.Container:hover >
+  .Cover
+    transform: perspective(600px) rotateY(-180deg)
+  .Main
+    transform: perspective(600px) rotateY(0deg)
+
+.Cover
+  background: url(https://uploads.codesandbox.io/uploads/user/5408ce2b-8ac4-40cc-be47-ff3b66b025e3/ai-Z-tree.png) no-repeat 50% 50%/contain
+
+.Main
+  background-color: transparent
+  transform: rotateY(180deg)
+
+.BackContent
+  color: #2c3e50
+  text-align: center
+  width: 100%
+
+  h1
+    font-size: 3rem
+    font-family: 'Love Light', cursive
+  p
+    font-size: 2.5rem
+    font-family: 'Zilla Slab Highlight', cursive
