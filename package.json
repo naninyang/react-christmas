@@ -24,6 +24,7 @@
     "eject": "react-scripts eject"
   },
   "browserslist": [
+    "since 2010",
     ">0.2%",
     "not dead",
     "not ie <= 11",
